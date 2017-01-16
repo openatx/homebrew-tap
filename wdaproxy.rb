@@ -1,4 +1,4 @@
-class Goreleaser < Formula
+class Wdaproxy < Formula
   desc "WebDriverAgent prxoy"
   homepage "https://github.com/openatx/wdaproxy"
   url "https://github.com/openatx/wdaproxy/releases/download/0.0.1/wdaproxy.zip"
