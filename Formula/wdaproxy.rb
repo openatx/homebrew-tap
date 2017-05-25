@@ -1,9 +1,9 @@
 class Wdaproxy < Formula
-  desc "WebDriverAgent Proxy"
-  homepage "https://github.com/openatx/wdaproxy"
-  url "https://github.com/openatx/wdaproxy/releases/download/0.0.10/wdaproxy_Darwin_x86_64.tar.gz"
-  version "0.0.10"
-  sha256 "74ab389322ad335cefc465dc85f4f3c7eb61855c6a32e170ac23a11aafdf5042"
+  desc ""
+  homepage ""
+  url "https://github.com/openatx/wdaproxy/releases/download/0.1.0/wdaproxy_0.1.0_darwin_amd64.tar.gz"
+  version "0.1.0"
+  sha256 "5313d566a29dad8b19f8844d113cdb027729169a1e26c1ac6f4824dd120985c9"
   
   depends_on "libimobiledevice"
 
