@@ -1,17 +1,13 @@
 class Wdaproxy < Formula
   desc ""
   homepage ""
-  url "https://github.com/openatx/wdaproxy/releases/download/0.1.1/wdaproxy_0.1.1_darwin_amd64.tar.gz"
-  version "0.1.1"
-  sha256 "6eea9b5fc9d73c7961ab4440cefcbede4bd193daa65b40bd0290de3389fc578e"
-
-  depends_on "libimobiledevice"
+  url "https://github.com/openatx/wdaproxy/releases/download/0.1.2/wdaproxy_0.1.2_darwin_amd64.tar.gz"
+  version "0.1.2"
+  sha256 "1c2cd7ff7bb4626044d7a2d2bcc4d35dc3918fb261787d0ad082fc423b0da072"
+  
+  depends_on "usbmuxd"
 
   def install
     bin.install "wdaproxy"
-  end
-
-  test do
-    
   end
 end
